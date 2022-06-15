@@ -1,0 +1,18 @@
+En la carpeta _app. contienen el init, que idica donde se ejecuta la _app
+el archivo config con las configuracioines de fastapi
+
+el .env, es un archivo donde se cargan las variables de entorno
+es decir varialbes que pueder verse alteradas dependiendo donde se ejecute la _app
+por ello las almacenamos aqui, para que sean falciles de cambiar y sobre todo mantenibles y escalables
+
+ojo con las dependencias necesarias para poder instalar y ejecutar todas los archivos necesarios.
+
+para ejecutar el servidor en modo recarga
+
+$ uvicorn shortener_app.main:app --reload
+
+instaar uvicorn! 
+
+Ojo con las bases e datos, los errores de creación persisten si no se crean bien de base, y hay que borrarlas
+
+Reenviar url acortada....
